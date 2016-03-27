@@ -94,6 +94,12 @@ public class RankManager extends FreedomService
         {
             return BROTHER;
         }
+        
+          else if (sender.getName().equals("xMarsBarsAreYumx"))
+        {
+            return RYAN;
+        }
+        
 
         // Console admin, get by name
         Admin admin = plugin.al.getEntryByName(sender.getName());
