@@ -12,6 +12,9 @@ public enum Rank implements RankBase
     SUPER_ADMIN(Type.ADMIN, "a", "SA", ChatColor.GOLD),
     TELNET_ADMIN(Type.ADMIN, "a", "STA", ChatColor.DARK_GREEN),
     SENIOR_ADMIN(Type.ADMIN, "a", "SrA", ChatColor.LIGHT_PURPLE),
+    REUBEN(Type.ADMIN, "the", "Mother f*cking Owner & Founder!", ChatColor.LIGHT_GREEN),
+    RYAN(Type.ADMIN, "the", "Co-Owner & Server-Hoster!", ChatColor.LIGHT_GREEN),
+    NOOB(Type.PLAYER, "a", "NOOB", ChatColor.Yellow),
     TELNET_CONSOLE(),
     SENIOR_CONSOLE();
     //
